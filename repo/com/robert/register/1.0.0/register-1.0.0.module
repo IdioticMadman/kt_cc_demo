@@ -1,0 +1,81 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.robert",
+    "module": "register",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "cxxj2dmi7vcclezzglz55r52ze"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "register-1.0.0.jar",
+          "url": "register-1.0.0.jar",
+          "size": 5874,
+          "sha512": "8dd691099dea21eb191dfab9a528090b5ed0d46d881054c192b881af233b5268640906455bb2916d28e688ee019023c59f831135d0d5b71ed7f02b3f18124227",
+          "sha256": "8ea96d5bdcea0c0bf906de5a1582bcd90aefa97a520cd6425d2b0572682c7abb",
+          "sha1": "ebe3d7bfdab3137e03f172ffe2acd5b9e4e60cd5",
+          "md5": "2c34567e22e8bc96ed7a9a95567e3da0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "4.1.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "register-1.0.0.jar",
+          "url": "register-1.0.0.jar",
+          "size": 5874,
+          "sha512": "8dd691099dea21eb191dfab9a528090b5ed0d46d881054c192b881af233b5268640906455bb2916d28e688ee019023c59f831135d0d5b71ed7f02b3f18124227",
+          "sha256": "8ea96d5bdcea0c0bf906de5a1582bcd90aefa97a520cd6425d2b0572682c7abb",
+          "sha1": "ebe3d7bfdab3137e03f172ffe2acd5b9e4e60cd5",
+          "md5": "2c34567e22e8bc96ed7a9a95567e3da0"
+        }
+      ]
+    }
+  ]
+}
